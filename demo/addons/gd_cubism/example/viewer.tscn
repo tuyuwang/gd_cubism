@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dy5erb1lkxh7t"]
 
-[ext_resource type="Script" path="res://addons/gd_cubism/example/viewer.gd" id="1_wysar"]
+[ext_resource type="Script" uid="uid://c6rk4ygtmjwwe" path="res://addons/gd_cubism/example/viewer.gd" id="1_wysar"]
 
 [node name="viewer" type="Control"]
 layout_mode = 3

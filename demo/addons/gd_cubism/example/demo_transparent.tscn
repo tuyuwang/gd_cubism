@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://7hglgm6o0ou4"]
 
-[ext_resource type="Script" path="res://addons/gd_cubism/example/demo_transparent.gd" id="1_v7gdn"]
+[ext_resource type="Script" uid="uid://c1jhb8mn041nd" path="res://addons/gd_cubism/example/demo_transparent.gd" id="1_v7gdn"]
 
 [node name="demo_transparent" type="Node2D"]
 script = ExtResource("1_v7gdn")

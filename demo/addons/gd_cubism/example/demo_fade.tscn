@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://rdteqxrmttct"]
 
-[ext_resource type="Script" path="res://addons/gd_cubism/example/demo_fade.gd" id="1_3vqxl"]
+[ext_resource type="Script" uid="uid://box7ssbnrbp0y" path="res://addons/gd_cubism/example/demo_fade.gd" id="1_3vqxl"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_nt5uq"]
 viewport_path = NodePath("Sprite2D/SubViewport")
