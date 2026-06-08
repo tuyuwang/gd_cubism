@@ -45,11 +45,6 @@ jobs:
         scons platform=windows target=template_release arch=x86_64
       working-directory: ${{ github.workspace }}
 
-    - name: Build GDExtension (Windows x86)
-      run: |
-        scons platform=windows target=template_release arch=x86
-      working-directory: ${{ github.workspace }}
-
     - name: Upload Windows artifacts
       uses: actions/upload-artifact@v4
       with:
