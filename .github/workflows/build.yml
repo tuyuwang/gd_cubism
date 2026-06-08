@@ -12,6 +12,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    - name: Enable Git long paths
+      run: git config --global core.longpaths true
+
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
@@ -24,11 +27,7 @@ jobs:
           SConstruct
           thirdparty/CubismSdkForNative-5-r.1/Core
           thirdparty/CubismSdkForNative-5-r.1/Framework
-          thirdparty/CubismSdkForNative-5-r.1/*.md
           godot-cpp
-
-    - name: Enable Git long paths
-      run: git config --global core.longpaths true
 
     - name: Setup Python
       uses: actions/setup-python@v5
