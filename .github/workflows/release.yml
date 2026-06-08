@@ -37,7 +37,7 @@ jobs:
 
     - name: Build Linux x64
       run: |
-        scons platform=linuxbsd target=template_release arch=x86_64
+        scons platform=linux target=template_release arch=x86_64
       working-directory: ${{ github.workspace }}
 
     - name: Create Release Archive
