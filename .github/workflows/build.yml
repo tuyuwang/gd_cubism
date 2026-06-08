@@ -51,7 +51,6 @@ jobs:
         name: windows-release
         path: |
           demo/addons/gd_cubism/bin/**/*.dll
-          demo/addons/gd_cubism/bin/**/*.lib
         retention-days: 30
 
   build-linux:
